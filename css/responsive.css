@@ -1,0 +1,45 @@
+@media screen and (max-width: 1540px) {
+    main .container {
+        width: 1140px;
+    }
+    section .container {
+        width: 1140px;
+    }
+    section.contact  {
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    main .container {
+        width: 992px;
+    }
+    section .container {
+        width: 992px;
+    }
+    #web .container .clone img {
+        display: block;
+        width: 80%;
+        border: 3px solid black;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 992px) {
+    main .container {
+        width: 750px;
+    }
+    section .container {
+        width: 750px;
+    }
+}
+@media screen and (max-width: 750px) {
+    main .container {
+        width: 576px;
+    }
+    section .container {
+        width: 576px;
+    }
+    section.contact  {
+        height: 100vh;
+    }
+}
